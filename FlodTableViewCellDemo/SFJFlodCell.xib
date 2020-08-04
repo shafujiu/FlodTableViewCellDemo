@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="125" id="KGk-i7-Jjw" customClass="SFJFlodCell" customModule="FlodTableViewCellDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FjW-9Z-DvD">
+                        <rect key="frame" x="16" y="8" width="288" height="109"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeB-S4-1c3">
+                                <rect key="frame" x="169" y="12" width="44" height="30"/>
+                                <state key="normal" title="unflod"/>
+                                <connections>
+                                    <action selector="unflodBtnAct:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="f16-aB-fr5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k88-Yn-Dyq">
+                                <rect key="frame" x="243" y="12" width="30" height="30"/>
+                                <state key="normal" title="flod"/>
+                                <connections>
+                                    <action selector="flodBtnAct:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="H07-mJ-rZH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="k88-Yn-Dyq" secondAttribute="trailing" constant="15" id="JlK-FN-SFp"/>
+                            <constraint firstItem="k88-Yn-Dyq" firstAttribute="leading" secondItem="aeB-S4-1c3" secondAttribute="trailing" constant="30" id="XeG-87-COb"/>
+                            <constraint firstAttribute="height" priority="999" constant="109" id="ZAD-tV-5dG"/>
+                            <constraint firstItem="k88-Yn-Dyq" firstAttribute="top" secondItem="FjW-9Z-DvD" secondAttribute="top" constant="12" id="mto-I0-dqK"/>
+                            <constraint firstItem="aeB-S4-1c3" firstAttribute="centerY" secondItem="k88-Yn-Dyq" secondAttribute="centerY" id="o7G-l4-qm7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="FjW-9Z-DvD" secondAttribute="trailing" constant="16" id="0No-kR-6aa"/>
+                    <constraint firstAttribute="bottom" secondItem="FjW-9Z-DvD" secondAttribute="bottom" constant="8" id="40s-7I-RFH"/>
+                    <constraint firstItem="FjW-9Z-DvD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="UHC-EK-TDY"/>
+                    <constraint firstItem="FjW-9Z-DvD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="wSD-sP-JNf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentHeightC" destination="ZAD-tV-5dG" id="Nlb-Fn-xfW"/>
+            </connections>
+            <point key="canvasLocation" x="-49.275362318840585" y="149.66517857142856"/>
+        </tableViewCell>
+    </objects>
+</document>

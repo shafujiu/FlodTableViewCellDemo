@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810032ED24D9B69600BCA52C /* SFJFlodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810032EB24D9B69600BCA52C /* SFJFlodCell.swift */; };
+		810032EE24D9B69600BCA52C /* SFJFlodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810032EC24D9B69600BCA52C /* SFJFlodCell.xib */; };
 		8103AE3E24D9823C00F6A98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103AE3D24D9823C00F6A98C /* AppDelegate.swift */; };
 		8103AE4024D9823C00F6A98C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103AE3F24D9823C00F6A98C /* SceneDelegate.swift */; };
 		8103AE4224D9823C00F6A98C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103AE4124D9823C00F6A98C /* ViewController.swift */; };
 		8103AE4524D9823C00F6A98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8103AE4324D9823C00F6A98C /* Main.storyboard */; };
 		8103AE4724D9824100F6A98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8103AE4624D9824100F6A98C /* Assets.xcassets */; };
 		8103AE4A24D9824100F6A98C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8103AE4824D9824100F6A98C /* LaunchScreen.storyboard */; };
-		8103AE5524D9824100F6A98C /* FlodTableViewCellDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103AE5424D9824100F6A98C /* FlodTableViewCellDemoTests.swift */; };
-		8103AE6024D9824100F6A98C /* FlodTableViewCellDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103AE5F24D9824100F6A98C /* FlodTableViewCellDemoUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810032EB24D9B69600BCA52C /* SFJFlodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFJFlodCell.swift; sourceTree = "<group>"; };
+		810032EC24D9B69600BCA52C /* SFJFlodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFJFlodCell.xib; sourceTree = "<group>"; };
 		8103AE3A24D9823C00F6A98C /* FlodTableViewCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlodTableViewCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8103AE3D24D9823C00F6A98C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8103AE3F24D9823C00F6A98C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +46,7 @@
 		8103AE4924D9824100F6A98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8103AE4B24D9824100F6A98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8103AE5024D9824100F6A98C /* FlodTableViewCellDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlodTableViewCellDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8103AE5424D9824100F6A98C /* FlodTableViewCellDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlodTableViewCellDemoTests.swift; sourceTree = "<group>"; };
-		8103AE5624D9824100F6A98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8103AE5B24D9824100F6A98C /* FlodTableViewCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlodTableViewCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8103AE5F24D9824100F6A98C /* FlodTableViewCellDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlodTableViewCellDemoUITests.swift; sourceTree = "<group>"; };
-		8103AE6124D9824100F6A98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				8103AE3C24D9823C00F6A98C /* FlodTableViewCellDemo */,
-				8103AE5324D9824100F6A98C /* FlodTableViewCellDemoTests */,
-				8103AE5E24D9824100F6A98C /* FlodTableViewCellDemoUITests */,
 				8103AE3B24D9823C00F6A98C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,30 +98,14 @@
 				8103AE3D24D9823C00F6A98C /* AppDelegate.swift */,
 				8103AE3F24D9823C00F6A98C /* SceneDelegate.swift */,
 				8103AE4124D9823C00F6A98C /* ViewController.swift */,
+				810032EB24D9B69600BCA52C /* SFJFlodCell.swift */,
+				810032EC24D9B69600BCA52C /* SFJFlodCell.xib */,
 				8103AE4324D9823C00F6A98C /* Main.storyboard */,
 				8103AE4624D9824100F6A98C /* Assets.xcassets */,
 				8103AE4824D9824100F6A98C /* LaunchScreen.storyboard */,
 				8103AE4B24D9824100F6A98C /* Info.plist */,
 			);
 			path = FlodTableViewCellDemo;
-			sourceTree = "<group>";
-		};
-		8103AE5324D9824100F6A98C /* FlodTableViewCellDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				8103AE5424D9824100F6A98C /* FlodTableViewCellDemoTests.swift */,
-				8103AE5624D9824100F6A98C /* Info.plist */,
-			);
-			path = FlodTableViewCellDemoTests;
-			sourceTree = "<group>";
-		};
-		8103AE5E24D9824100F6A98C /* FlodTableViewCellDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8103AE5F24D9824100F6A98C /* FlodTableViewCellDemoUITests.swift */,
-				8103AE6124D9824100F6A98C /* Info.plist */,
-			);
-			path = FlodTableViewCellDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810032EE24D9B69600BCA52C /* SFJFlodCell.xib in Resources */,
 				8103AE4A24D9824100F6A98C /* LaunchScreen.storyboard in Resources */,
 				8103AE4724D9824100F6A98C /* Assets.xcassets in Resources */,
 				8103AE4524D9823C00F6A98C /* Main.storyboard in Resources */,
@@ -259,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810032ED24D9B69600BCA52C /* SFJFlodCell.swift in Sources */,
 				8103AE4224D9823C00F6A98C /* ViewController.swift in Sources */,
 				8103AE3E24D9823C00F6A98C /* AppDelegate.swift in Sources */,
 				8103AE4024D9823C00F6A98C /* SceneDelegate.swift in Sources */,
@@ -269,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8103AE5524D9824100F6A98C /* FlodTableViewCellDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8103AE6024D9824100F6A98C /* FlodTableViewCellDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C67ZA79SMN;
 				INFOPLIST_FILE = FlodTableViewCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C67ZA79SMN;
 				INFOPLIST_FILE = FlodTableViewCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
